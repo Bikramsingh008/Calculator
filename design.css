@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.nav{
+    color: rgb(27, 70, 29);
+    font-size:xx-large;
+    text-align: center;
+    position: relative;
+    top: 14px;
+    text-shadow: 2px 8px 6px rgba(32, 79, 32, 0.548);
+}
+.calci{
+    height: 39em;
+    width: 25em;
+    background-color: rgba(113, 112, 112, 0.73);
+    position: relative;
+    left: 47em;
+    box-shadow: 7px 8px 19px 15px rgba(43, 6, 6, 0.356);
+    border-radius: 20px;
+}
+.answerbox{
+    font-size: 30px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px 10px 0px 0px;
+    height: 60px;
+    width: 96%;
+    position: relative;
+    top: 10px;
+    left: 6px;
+    background-color: rgb(247, 247, 247);
+    text-align: right;
+}
+.display{
+    color: black;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 0px 0px 10px 10px;
+    height: 60px;
+    width: 96%;
+    position: relative;
+    top: 10px;
+    left: 6px;
+    background-color: rgba(231, 231, 231, 0.848);
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.btn{
+    font-weight: bold;
+    background-color: rgba(0, 255, 255, 0.643);
+    height: 66px;
+    width: 66px;
+    border-radius: 7px;
+    position: inherit;
+    margin: 15px;
+    top: 10px;
+    left: 2px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn:hover{
+    box-shadow: 3px 4px 40px rgba(0, 255, 255, 0.643);
+}
+.no{
+    background-color: aliceblue;
+    font-weight: bold;
+    height: 66px;
+    width: 66px;
+    border-radius: 7px;
+    position: inherit;
+    margin: 15px;
+    left: 2px;
+    top: 10px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dark{
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+    height: 2em;
+    width: 4em;
+    border-radius: 15px;
+    background-color: rgba(20, 53, 56, 0.824);
+    padding-top: 20px;
+    position: relative;
+    top: 54px;
+    left: 46em;
+}
+/* .dark:focus {
+    background-color: #dd4a14a8;
+} */
+.dark:hover{
+    color: white;
+    background-color: black;
+    box-shadow: 9px 10px 29px 1px black;
+}
+.light{
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+    height: 2em;
+    width: 4em;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgba(23, 205, 221, 0.812);
+    position: relative;
+    top: 5em;
+    left: 24em;
+}
+.light:hover{
+    color: white;
+    background-color: rgba(30, 231, 231, 0.909);
+    box-shadow: 9px 10px 29px 1px rgba(23, 205, 221, 0.511);
+}
